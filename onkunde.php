@@ -9,7 +9,7 @@
     <body>
 
         <div id="container">
-        <h1>Mad Libs</h1>
+        <h1 id="header">Mad Libs</h1>
 
             <nav>
                 <ul id="menu">
@@ -19,6 +19,7 @@
             </nav>
 
             <main>
+                <h1>Onkunde</h1>
                 <form action="onkundevalidate.php" method="post">
                     <div class="questions"><label for="question1">Wat zou je graag willen kunnen?</label></div>
                     <div class="questions-input"><input id="question1" name="question1" type="text" value="<?php print $question1; ?>"></div>
@@ -52,7 +53,7 @@
                             <p><?php print $error; ?></p>
                         <?php } ?>
                     </div>
-                    
+
                     <input type="submit" name="submit">
                     
 

@@ -9,7 +9,7 @@
     <body>
 
         <div id="container">
-        <h1>Mad Libs</h1>
+        <h1 id="header">Mad Libs</h1>
 
             <nav>
                 <ul id="menu">
@@ -19,23 +19,24 @@
             </nav>
 
             <main>
+                <h1>Er heerst paniek...</h1>
                 <p>
                     Er heerst paniek in het koninkrijk <?php print $question3 ?>. Koning <?php print $question6 ?> is ten einde raad en als koning <?php print $question6 ?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php print $question2 ?>.
-                    <br>
+                    <br><br>
                     “<?php print $question2 ?>! Het is een ramp! Het is een schande!”
-                    <br>
+                    <br><br>
                     ‘Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?”
-                    <br>
+                    <br><br>
                     “Mijn <?php print $question1 ?> is verdwenen! Zo maar, zonder waarschuwing. En ik had net <?php print $question5 ?> voor hem gekocht!”
-                    <br>
+                    <br><br>
                     “Majesteit, uw <?php print $question1 ?> komt vast vanzelf weer terug?”
-                    <br>
+                    <br><br>
                     “Ja, da’s leuk en aardig, maar hoe moet ik in de tussentijd <?php print $question8 ?> leren?”
-                    <br>
+                    <br><br>
                     “Maar Sire, daar kunt u toch uw <?php print $question7 ?> voor gebruiken.”
-                    <br>
+                    <br><br>
                     “<?php print $question2 ?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had.”
-                    <br>
+                    <br><br>
                     “<?php print $question4 ?>, Sire.”
 
                 </p>

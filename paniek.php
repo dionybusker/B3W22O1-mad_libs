@@ -9,7 +9,7 @@
     <body>
 
         <div id="container">
-        <h1>Mad Libs</h1>
+            <h1 id="header">Mad Libs</h1>
 
             <nav>
                 <ul id="menu">
@@ -19,6 +19,7 @@
             </nav>
 
             <main>
+                <h1>Er heerst paniek...</h1>
                 <form action="paniekvalidate.php" method="post">
                     <div class="questions"><label for="question1">Welk dier zou je nooit als huisdier willen hebben?</label></div>
                     <div class="questions-input"><input id="question1" name="question1" type="text" value="<?php print $question1; ?>"></div>

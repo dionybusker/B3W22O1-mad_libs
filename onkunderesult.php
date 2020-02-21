@@ -9,7 +9,7 @@
     <body>
 
         <div id="container">
-        <h1>Mad Libs</h1>
+        <h1 id="header">Mad Libs</h1>
 
             <nav>
                 <ul id="menu">
@@ -19,6 +19,7 @@
             </nav>
 
             <main>
+                <h1>Onkunde</h1>
                 <p>
                     Er zijn veel mensen die niet kunnen <?php print $question1 ?>. Neem nou <?php print $question2 ?>. Zelfs met de hulp van een <?php print $question4 ?> of zelf <?php print $question3 ?> kan <?php print $question2 ?> niet <?php print $question1 ?>. Dat heeft niet te maken met een gebrek aan <?php print $question5 ?>, maar met een teveel aan <?php print $question6 ?>. Te veel <?php print $question6 ?> leidt tot <?php print $question7 ?> en dat is niet goed als je wilt <?php print $question1 ?>. Helaas voor <?php print $question2 ?>.
                 </p>

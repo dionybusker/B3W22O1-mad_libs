@@ -3,14 +3,15 @@ html {
     background-color: #373631;
 }
 
-h1 {
+h1#header {
     font-family: "Lakki Reddy";
     color: white;
-    font-size: 3em;
+    font-size: 5em;
     margin: 0 10px;
     position: relative;
-    top: 15px;
+    top: 25px;
     left: 0;
+    text-shadow: 3px 3px 1px black;
 }
 
 #container {
@@ -45,6 +46,14 @@ main {
     position: relative;
     bottom: 16px;
     left: 0;
+}
+
+main > h1 {
+    margin: 5px 10px;
+}
+
+main > p {
+    margin: 10px;
 }
 
 div.questions {
