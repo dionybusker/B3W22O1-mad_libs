@@ -13,8 +13,8 @@
 
             <nav>
                 <ul id="menu">
-                    <li><a href="#">Er heerst paniek...</a></li>
-                    <li><a href="#">Onkunde</a></li>
+                    <li><a href="paniek.php">Er heerst paniek...</a></li>
+                    <li><a href="onkunde.php">Onkunde</a></li>
                 </ul>
             </nav>
 
