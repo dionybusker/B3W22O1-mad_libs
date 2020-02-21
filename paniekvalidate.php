@@ -19,11 +19,13 @@
     }
 
     function test_input($data) {
+        // $data = str_replace("\xc2\xa0", " ", $data);
         $data = htmlspecialchars($data);
+        // $data = preg_replace("/\xc2\xa0/", " ", $data);
         return $data;
     }
 
-    
+
     if (empty($error)) {
         include("paniekresult.php");
     } else {
