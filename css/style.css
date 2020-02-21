@@ -6,6 +6,7 @@ html {
 #container {
     width: 750px;
     margin: 0 auto;
+    background-color: white;
 }
 
 h1 {
@@ -34,11 +35,23 @@ nav > ul#menu > li > a {
 }
 
 main {
-    background-color: white;
     padding: 10px;
 }
 
-label {
+div.questions {
     width: 50%;
+    display: inline-block;
+    margin: 10px;
 }
 
+div.questions-input {
+    width: 45%;
+    display: inline-block;
+}
+
+input[type=submit] {
+    position: relative;
+    top: 0;
+    left: 52%;
+    margin: 10px;
+}
