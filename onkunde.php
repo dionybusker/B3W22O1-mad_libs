@@ -47,6 +47,12 @@
                     <div class="questions"><label for="question7">Wat is het ergste dat je kan overkomen?</label></div>
                     <div class="questions-input"><input id="question7" name="question7" type="text" value="<?php print $question7; ?>"></div>
 
+                    <div class="error">
+                        <?php if(isset($error)) { ?>
+                            <p><?php print $error; ?></p>
+                        <?php } ?>
+                    </div>
+                    
                     <input type="submit" name="submit">
                     
 
