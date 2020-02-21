@@ -11,7 +11,7 @@
     if (empty($question1) || empty($question2) || empty($question3) || empty($question4) || empty($question5) || empty($question6) || empty($question7)) {
         $error = "Graag alles invullen.";
     } else {
-        if (!preg_match("/^[a-zA-Z]*$/", $question1) || !preg_match("/^[a-zA-Z]*$/", $question2) || !preg_match("/^[a-zA-Z]*$/", $question3) || !preg_match("/^[a-zA-Z]*$/", $question4) || !preg_match("/^[a-zA-Z]*$/", $question5) || !preg_match("/^[a-zA-Z]*$/", $question6) || !preg_match("/^[a-zA-Z]*$/", $question7)) {
+        if (!preg_match("/^[a-zA-Z ]*$/", $question1) || !preg_match("/^[a-zA-Z ]*$/", $question2) || !preg_match("/^[a-zA-Z ]*$/", $question3) || !preg_match("/^[a-zA-Z ]*$/", $question4) || !preg_match("/^[a-zA-Z ]*$/", $question5) || !preg_match("/^[a-zA-Z ]*$/", $question6) || !preg_match("/^[a-zA-Z ]*$/", $question7)) {
             $error = "Gebruik alleen letters.";
         }
     }
