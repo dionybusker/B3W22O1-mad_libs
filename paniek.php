@@ -19,37 +19,37 @@
             </nav>
 
             <main>
-                <form action="validator.php" method="post">
+                <form action="paniekvalidate.php" method="post">
                     <div class="questions"><label for="question1">Welk dier zou je nooit als huisdier willen hebben?</label></div>
-                    <div class="questions-input"><input id="question1" name="question1" type="text" value="<?php print htmlspecialchars($question1); ?>"></div>
+                    <div class="questions-input"><input id="question1" name="question1" type="text" value="<?php print $question1; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question2">Wie is de belangrijkste persoon in je leven?</label></div>
-                    <div class="questions-input"><input id="question2" name="question2" type="text" value="<?php print htmlspecialchars($question2); ?>"></div>
+                    <div class="questions-input"><input id="question2" name="question2" type="text" value="<?php print $question2; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question3">In welk land zou je graag willen wonen?</label></div>
-                    <div class="questions-input"><input id="question3" name="question3" type="text" value="<?php print htmlspecialchars($question3); ?>"></div>
+                    <div class="questions-input"><input id="question3" name="question3" type="text" value="<?php print $question3; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question4">Wat doe je als je je verveelt?</label></div>
-                    <div class="questions-input"><input id="question4" name="question4" type="text" value="<?php print htmlspecialchars($question4); ?>"></div>
+                    <div class="questions-input"><input id="question4" name="question4" type="text" value="<?php print $question4; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question5">Met welk speelgoed speelde je als kind het meest?</label></div>
-                    <div class="questions-input"><input id="question5" name="question5" type="text" value="<?php print htmlspecialchars($question5); ?>"></div>
+                    <div class="questions-input"><input id="question5" name="question5" type="text" value="<?php print $question5; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question6">Bij welke docent spijbel je het liefst?</label></div>
-                    <div class="questions-input"><input id="question6" name="question6" type="text" value="<?php print htmlspecialchars($question6); ?>"></div>
+                    <div class="questions-input"><input id="question6" name="question6" type="text" value="<?php print $question6; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question7">Als je € 100.000,- had, wat zou je dan kopen?</label></div>
-                    <div class="questions-input"><input id="question7" name="question7" type="text" value="<?php print htmlspecialchars($question7); ?>"></div>
+                    <div class="questions-input"><input id="question7" name="question7" type="text" value="<?php print $question7; ?>"></div>
                     <br>
 
                     <div class="questions"><label for="question8">Wat is je favoriete bezigheid?</label></div>
-                    <div class="questions-input"><input id="question8" name="question8" type="text" value="<?php print htmlspecialchars($question8); ?>"></div>
+                    <div class="questions-input"><input id="question8" name="question8" type="text" value="<?php print $question8; ?>"></div>
 
                     <div class="error">
                         <?php if(isset($error)) { ?>
