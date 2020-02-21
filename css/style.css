@@ -3,15 +3,20 @@ html {
     background-color: #373631;
 }
 
+h1 {
+    font-family: "Lakki Reddy";
+    color: white;
+    font-size: 3em;
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    left: 0;
+}
+
 #container {
     width: 600px;
     margin: 0 auto;
-    background-color: white;
-}
-
-h1 {
-    font-family: "Press Start 2P";
-    color: white;
+    background-color: #373631;
 }
 
 nav {
@@ -36,23 +41,27 @@ nav > ul#menu > li > a {
 
 main {
     padding: 10px;
+    background-color: white;
+    position: relative;
+    bottom: 16px;
+    left: 0;
 }
 
 div.questions {
-    width: 50%;
+    width: 60%;
     display: inline-block;
     margin: 10px;
 }
 
 div.questions-input {
-    width: 45%;
+    width: 35%;
     display: inline-block;
 }
 
 input[type=submit] {
     position: relative;
     top: 0;
-    left: 52%;
+    left: 62%;
     margin: 10px;
 }
 
@@ -61,4 +70,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
+    bottom: 16px;
+    left: 0;
 }

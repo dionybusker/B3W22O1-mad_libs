@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <title>B3W22O1 - Mad libs</title>
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Lakki+Reddy|Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header><h1>Mad Libs</h1></header>
 
         <div id="container">
+        <h1>Mad Libs</h1>
 
             <nav>
                 <ul id="menu">
