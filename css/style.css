@@ -3,15 +3,14 @@ html {
     background-color: #373631;
 }
 
-h1 {
-    font-family: "Press Start 2P";
-    color: white;
-}
-
 #container {
     width: 750px;
     margin: 0 auto;
-    background-color: white;
+}
+
+h1 {
+    font-family: "Press Start 2P";
+    color: white;
 }
 
 nav {
@@ -33,3 +32,13 @@ nav > ul#menu > li > a {
     color: white;
     font-size: 20px;
 }
+
+main {
+    background-color: white;
+    padding: 10px;
+}
+
+label {
+    width: 50%;
+}
+
